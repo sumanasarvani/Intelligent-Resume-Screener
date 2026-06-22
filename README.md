@@ -23,16 +23,6 @@ without leaving the Snowflake environment.
 
 ---
 
-## 🖥️ Dashboard Preview
-
-**Tab 1 — Recruiter Dashboard**
-![Recruiter Dashboard](screenshots/tab1.png)
-
-**Tab 2 — Resume Fit Checker**
-![Resume Fit Checker](screenshots/tab2.png)
-
----
-
 ## 🏗️ Architecture
 ---
 ```text
