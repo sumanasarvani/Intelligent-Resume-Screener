@@ -1,4 +1,4 @@
-# 🧠 Intelligent Resume Screener & Candidate Ranking Engine
+# Intelligent Resume Screener & Candidate Ranking Engine
 > An end-to-end AI-powered recruiting platform built entirely inside Snowflake
 > using Cortex LLM functions, Snowflake SQL, and Streamlit in Snowflake.
 > No external APIs. No RAG. No custom model training.
@@ -10,10 +10,10 @@
 This project automates the resume screening and candidate ranking process
 using Snowflake Cortex AI. It has two sides:
 
-- 👥 **Recruiter Dashboard** — automatically screens and ranks candidates
+- **Recruiter Dashboard** — automatically screens and ranks candidates
   against any open role using AI-generated fit scores, strengths analysis,
   and gap identification
-- 📄 **Resume Fit Checker** — candidates paste their resume and receive
+- **Resume Fit Checker** — candidates paste their resume and receive
   an instant AI score against any of 20 open roles with specific,
   actionable feedback
 
@@ -23,7 +23,7 @@ without leaving the Snowflake environment.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 ---
 ```text
 JOB_DESCRIPTIONS                 RAW_RESUMES
@@ -68,7 +68,7 @@ Streamlit in Snowflake
 └── Resume Fit Checker
 ```
 
-## 🤖 Snowflake Cortex Functions Used
+## Snowflake Cortex Functions Used
 
 | Function | Model | Purpose |
 |---|---|---|
@@ -78,7 +78,7 @@ Streamlit in Snowflake
 
 ---
 
-## 📁 Project Files
+## Project Files
 
 | File | Purpose |
 |---|---|
@@ -90,7 +90,7 @@ Streamlit in Snowflake
 
 ---
 
-## 📦 Snowflake Objects
+## Snowflake Objects
 
 | Object | Type | Purpose |
 |---|---|---|
@@ -106,7 +106,7 @@ Streamlit in Snowflake
 
 ---
 
-## 🗂️ Job Families Covered
+## Job Families Covered
 
 | Family | Roles |
 |---|---|
@@ -118,7 +118,7 @@ Streamlit in Snowflake
 
 ---
 
-## 🖥️ Dashboard Features
+## Dashboard Features
 
 **Tab 1 — Recruiter Dashboard**
 - Job selector dropdown with full JD metadata — salary, location,
@@ -142,7 +142,7 @@ Streamlit in Snowflake
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 - Snowflake account (trial account works)
